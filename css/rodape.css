@@ -1,0 +1,42 @@
+.containerRodape {
+    width: 100%;
+    height: auto;
+    background-color:#5D15D1;
+    padding: 10px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoRodape {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contato h2 {
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contato img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.contato div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contato div p {
+    color: #FFF;
+    font-size: 14px;
+}

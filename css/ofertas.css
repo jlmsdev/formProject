@@ -1,0 +1,107 @@
+.containerOfertas {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.tituloOfertas h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tituloOfertas p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.containerImagens {
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+
+.galeria1 {
+    width: 50%;
+    position: relative;
+}
+
+.galeria1 p {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(100, 85, 85, 0.4);
+    color: #FFF;
+    padding: 5px;
+}
+
+.galeria1 img {
+    width: 100%;
+}
+
+.galeria2 {
+    width: 50%;
+}
+
+
+
+.secaoFoto1,
+.secaoFoto2  {
+    width: 50%;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.secaoFoto1 img,
+.secaoFoto2 img {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.containerOfertas2 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+
+    margin: 50px auto;
+}
+
+.containerOfertas2 h3,
+.containerOfertas2 p {
+    margin-bottom: 10px;
+}
+
+.boxFotos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galeriaFoto1,
+.galeriaFoto2 {
+    width: calc(50% - 10px);
+}
+
+.galeriaFoto1 img,
+.galeriaFoto2 img {
+    width: 100%;
+}
+
+.legendaFoto {
+    width: 100%;
+    background-color: #cecece;
+    padding: 10px 20px;
+}
+
+.legendaFoto h4 {
+    margin-bottom: 10px;
+}

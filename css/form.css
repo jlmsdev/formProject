@@ -1,0 +1,125 @@
+.containerForm {
+    width: 100%;
+    height: auto;
+    background-image: url('/assets/bahia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudoForm {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.cabecalhoForm {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalhoForm img {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+.cabecalhoForm h1 {
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.inputsForm {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #FFF;
+}
+
+.inputsForm .subtituloForm {
+    margin-bottom: 24px;
+    font-size: 22px;
+}
+
+.inputsForm .dadosUser {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+    color: #9c9a9a;
+    font-size: 16px;
+}
+
+input, select {
+    width: 100%;
+    height: 32px;
+    padding: 8px 5px;
+}
+
+.dataViagem,
+.origemDestino {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ida, .volta,
+.origem, .destino {
+    width: calc(50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.ida, .origem {
+    margin-right: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+input[type="checkbox"] + label {
+    margin-right: 30px;
+}
+
+
+
+.radioSim {
+    margin-right: 30px;
+}
+
+.radio1 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.submitBtn {
+    margin-top: 15px;
+}
+
+.submitBtn button {
+    border: 0;
+    background-color: #5D15D1;
+    padding: 5px 8px;
+    color: #FFF;
+    font-size: 14px;
+}
